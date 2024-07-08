@@ -1,0 +1,42 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    border: 10px solid #000; /* Stylish border */
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.shopping-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.shopping-list h2, .add-item h2 {
+    margin-top: 0;
+}
+
+ul#shopping-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#shopping-list li {
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+ul#shopping-list li:hover {
+    background-color: #f0f0f0;
+}

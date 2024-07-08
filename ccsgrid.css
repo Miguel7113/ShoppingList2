@@ -1,0 +1,27 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px; /* Adjust as needed */
+}
+
+/* Shopping list */
+.shopping-list {
+    border: 1px solid #ccc; /* Example border */
+    padding: 10px;
+    margin-top: 20px;
+}
+
+ul#shopping-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#shopping-list li {
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+ul#shopping-list li:hover {
+    background-color: #f0f0f0;
+}
